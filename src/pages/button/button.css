@@ -1,0 +1,22 @@
+.button-wrapper {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.todo-button {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  border: 1px solid white;
+  color: black;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.todo-button:hover {
+  background-color: transparent;
+  color: white;
+}

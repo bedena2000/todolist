@@ -1,0 +1,43 @@
+.todo-modal {
+  width: 400px;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #a8a9a9;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  z-index: 2;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.todo-content-text {
+  font-size: 34px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.todo-input {
+  padding: 20px;
+  background-color: #a8a9a9;
+  border: 1px solid white;
+  color: black;
+  margin-right: 40px;
+}
+
+.add-item-button {
+  padding: 20px;
+  color: black;
+  background-color: #a8a9a9;
+  border: 1px solid white;
+  cursor: pointer;
+};
+
