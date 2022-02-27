@@ -15,8 +15,6 @@ const Button = () => {
     let blackBackgroundElement = blackBackground();
     addTodoElement.classList.toggle('show-block');
     blackBackgroundElement.classList.toggle('show-block');
-    console.log(addTodoElement);
-    console.log(blackBackgroundElement);
     document.querySelector('body').appendChild(addTodoElement);
     document.querySelector('body').appendChild(blackBackgroundElement);
   });

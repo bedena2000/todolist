@@ -1,4 +1,5 @@
 import './add-todo.css';
+import { Data, deleteItem } from '../../data/data.js';
 
 const addTodo = () => {
   // Add todo Modal
@@ -23,6 +24,7 @@ const addTodo = () => {
   
   addItemButton.addEventListener('click', (event) => {
     const inputValue = todoInput.value;
+    Data(inputValue);
   });
   
   todoModal.appendChild(addItemButton);

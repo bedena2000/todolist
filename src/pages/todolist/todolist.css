@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  margin-bottom: 40px;
 }
 
 .todo-item-text {
@@ -13,7 +14,15 @@
 }
 
 .todo-item-delete-icon {
-  color: white;
   font-size: 24px;
   cursor: pointer;
+  transition: all .3s ease;
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.todo-item-delete-icon:hover {
+  color: crimson;
 }
